@@ -24,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		474F0DD9250BCEF200C0AD59 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		47BEB38D2503FD1900267B13 /* square-root */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "square-root"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47BEB3902503FD1900267B13 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		47BEB3972503FD4F00267B13 /* functions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = functions.hpp; sourceTree = "<group>"; };
@@ -63,6 +64,7 @@
 				47BEB3902503FD1900267B13 /* main.cpp */,
 				47BEB3972503FD4F00267B13 /* functions.hpp */,
 				47BEB3982504074E00267B13 /* functions.cpp */,
+				474F0DD9250BCEF200C0AD59 /* Makefile */,
 			);
 			path = "square-root";
 			sourceTree = "<group>";
@@ -244,8 +246,10 @@
 		47BEB3952503FD1900267B13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3CF49YC524;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -254,8 +258,10 @@
 		47BEB3962503FD1900267B13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3CF49YC524;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

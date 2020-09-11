@@ -1,3 +1,5 @@
+on: push
+
 uses: sersoft-gmbh/xcodebuild-action@v1.1
 with:
   project: square-root.xcodeproj

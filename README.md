@@ -1,6 +1,6 @@
 # square-root
 
-![.github/workflows/macos.yml](https://github.com/Ubsefor/square-root/workflows/.github/workflows/macos.yml/badge.svg)
+![MacOS](https://github.com/Ubsefor/square-root/workflows/.github/workflows/macos.yml/badge.svg)
 
 A simple task for training to write in production-like style with full documentation and some unit-tests
 

@@ -1,4 +1,5 @@
 uses: sersoft-gmbh/xcodebuild-action@v1.1
+with:
   project: square-root.xcodeproj
   scheme: square-root
   destination: platform=macOS

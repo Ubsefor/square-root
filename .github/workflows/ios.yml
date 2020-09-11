@@ -1,6 +1,6 @@
 - name: Xcodebuild Action
   uses: sersoft-gmbh/xcodebuild-action@v1.1
-  project: square-root.xcodeproj
-  scheme: square-root
-  destination: platform=macOS
-  action: test
+    project: square-root.xcodeproj
+    scheme: square-root
+    destination: platform=macOS
+    action: test

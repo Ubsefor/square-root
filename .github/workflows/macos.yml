@@ -1,4 +1,4 @@
-osx_image: xcode10.2
+
 
 on:
   push:
@@ -12,8 +12,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
-      - name: Switch to Xcode 11
-        run: sudo xcode-select -s /Applications/Xcode_11.3.1.app
-      - name: Build
-        run: xcodebuild -configuration Debug
-
+      - name: Xcodebuild Action
+        uses: sersoft-gmbh/xcodebuild-action@v1.1
+        with:
+          # The path to the xcodeproj to build. Mutually exclusive with `workspace`.
+          project: square-root.xcodeproj
+          # The scheme to build. Required when using a workspace.
+          scheme: square-root
+          # The destination specifier to build.
+          destination: platform=macOS
+          # The configuration to build.
+          configuration: Debug
+          # The action to perform (e.g. build, test, ...).
+          action: build

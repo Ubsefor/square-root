@@ -4,7 +4,7 @@
 
 A simple task for training to write in production-like style with full documentation and some unit-tests
 
-### Clone
+## Clone/Download
 
 - Clone this repo to your local machine using `git clone https://github.com/ubsefor/square-root`
 

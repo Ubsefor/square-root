@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		47BEB3912503FD1900267B13 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47BEB3902503FD1900267B13 /* main.cpp */; };
 		47BEB3992504074E00267B13 /* functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47BEB3982504074E00267B13 /* functions.cpp */; };
+		47F766142516096000ABDABE /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 47F766132516096000ABDABE /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,11 +25,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		474F0DD9250BCEF200C0AD59 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		47BEB38D2503FD1900267B13 /* square-root */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "square-root"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47BEB3902503FD1900267B13 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		47BEB3972503FD4F00267B13 /* functions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = functions.hpp; sourceTree = "<group>"; };
 		47BEB3982504074E00267B13 /* functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functions.cpp; sourceTree = "<group>"; };
+		47F766122516094A00ABDABE /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		47F766132516096000ABDABE /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		47F766162516096F00ABDABE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,9 @@
 		47BEB3842503FD1900267B13 = {
 			isa = PBXGroup;
 			children = (
+				47F766162516096F00ABDABE /* README.md */,
+				47F766132516096000ABDABE /* Makefile */,
+				47F766122516094A00ABDABE /* .gitignore */,
 				47BEB38F2503FD1900267B13 /* square-root */,
 				47BEB38E2503FD1900267B13 /* Products */,
 			);
@@ -64,7 +70,6 @@
 				47BEB3902503FD1900267B13 /* main.cpp */,
 				47BEB3972503FD4F00267B13 /* functions.hpp */,
 				47BEB3982504074E00267B13 /* functions.cpp */,
-				474F0DD9250BCEF200C0AD59 /* Makefile */,
 			);
 			path = "square-root";
 			sourceTree = "<group>";
@@ -95,7 +100,7 @@
 		47BEB3852503FD1900267B13 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = ISPRAS;
 				TargetAttributes = {
 					47BEB38C2503FD1900267B13 = {
@@ -126,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F766142516096000ABDABE /* Makefile in Sources */,
 				47BEB3912503FD1900267B13 /* main.cpp in Sources */,
 				47BEB3992504074E00267B13 /* functions.cpp in Sources */,
 			);
@@ -160,12 +166,14 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -218,12 +226,14 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;

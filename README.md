@@ -71,6 +71,17 @@ Debug:
 $ make debug
 ```
 
+## Launching
+
+After building the project you can launch the executable:
+
+**Mac OS X** 
+
+Run the square-root executable from building directory
+
+**\*Nix**
+
+Run square-root.uexe from repo-root
 
 ## License 
 

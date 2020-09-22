@@ -50,4 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 DerivedData
+Build
+html
+.DS_Store
 dkms.conf

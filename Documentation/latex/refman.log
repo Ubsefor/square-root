@@ -1,0 +1,250 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.1)  22 SEP 2020 12:31
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**refman
+(./refman.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-05-15>
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/tools/array.sty
+Rollback for package 'array' requested -> date 2016-10-06.
+         Best approximation is the release introduced on 2016-10-06.
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/tools/array-2016-10-06.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen135
+\extrarowheight=\dimen136
+\NC@list=\toks15
+\extratabsurround=\skip49
+\backup@length=\skip50
+)) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+) (/usr/local/texlive/2020basic/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count176
+\calc@Bcount=\count177
+\calc@Adimen=\dimen137
+\calc@Bdimen=\dimen138
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count178
+\calc@Cskip=\skip53
+)
+(./doxygen.sty
+Package: doxygen 
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count179
+\float@exts=\toks16
+\float@box=\box45
+\@float@everytoks=\toks17
+\@floatcapt=\box46
+)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks18
+\verbatim@line=\toks19
+\verbatim@in@stream=\read2
+)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks20
+\minrowclearance=\skip54
+)
+\rownum=\count180
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(./longtable_doxygen.sty
+Package: longtable_doxygen 2014/10/28 v4.11 Multi-page Table package (DPC) - fr
+ozen version for doxygen
+\LTleft=\skip55
+\LTright=\skip56
+\LTpre=\skip57
+\LTpost=\skip58
+\LTchunksize=\count181
+\LTcapwidth=\dimen139
+\LT@head=\box47
+\LT@firsthead=\box48
+\LT@foot=\box49
+\LT@lastfoot=\box50
+\LT@cols=\count182
+\LT@rows=\count183
+\c@LT@tables=\count184
+\c@LT@chunks=\count185
+\LT@p@ftn=\toks21
+) (./tabu_doxygen.sty
+Package: tabu_doxygen 2011/02/26 v2.8 - flexible LaTeX tabulars (FC), frozen ve
+rsion for doxygen
+
+
+! LaTeX Error: File `varwidth.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: Docs.pdf
+
+! LaTeX Error: File `Docs.pdf' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: pdf)
+
+Enter file name: doxygen.sty
+(./doxygen.sty
+
+LaTeX Warning: You have requested package `varwidth',
+               but the package provides `doxygen'.
+
+Package: doxygen 
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+\FV@CodeLineNo=\count186
+\FV@InFile=\read3
+\FV@TabBox=\box51
+\c@FancyVerbLine=\count187
+\FV@StepNumber=\count188
+\FV@OutFile=\write3
+)
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen140
+\TX@old@table=\dimen141
+\TX@old@col=\dimen142
+\TX@target=\dimen143
+\TX@delta=\dimen144
+\TX@cols=\count189
+\TX@ftn=\toks23
+)
+
+! LaTeX Error: File `multirow.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: doxygen
+(./doxygen.sty
+
+LaTeX Warning: You have requested package `multirow',
+               but the package provides `doxygen'.
+
+Package: doxygen 
+
+! LaTeX Error: File `hanging.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+
+! LaTeX Error: File `adjustbox.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2020basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks24
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+
+! LaTeX Error: File `stackengine.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: X
+
+ ) ) ) ) )
+(\end occurred when \ifx on line 22 was incomplete)
+(\end occurred when \ifx on line 22 was incomplete)
+(\end occurred when \ifx on line 17 was incomplete)
+(\end occurred when \ifx on line 69 was incomplete)
+(\end occurred when \ifx on line 69 was incomplete) 
+Here is how much of TeX's memory you used:
+ 2323 strings out of 481924
+ 29400 string characters out of 5933647
+ 267578 words of memory out of 5000000
+ 18149 multiletter control sequences out of 15000+600000
+ 532338 words of font info for 24 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 61i,1n,53p,271b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+No pages of output.
+PDF statistics:
+ 0 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

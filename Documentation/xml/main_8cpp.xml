@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="main_8cpp" kind="file" language="C++">
+    <compoundname>main.cpp</compoundname>
+    <includes refid="functions_8hpp" local="yes">functions.hpp</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>cmath</label>
+      </node>
+      <node id="1">
+        <label>square-root/main.cpp</label>
+        <link refid="main_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>functions.hpp</label>
+        <link refid="functions_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="main_8cpp_1ac0f2228420376f4db7e1274f2b41667c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(int argc, const char *argv[])</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="square-root/main.cpp" line="11" column="5" bodyfile="square-root/main.cpp" bodystart="11" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>main.cpp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>square-root</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Alex<sp/>Makhov<sp/>on<sp/>05.09.2020.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2020<sp/>ISPRAS.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="functions_8hpp" kindref="compound">functions.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="main_8cpp_1ac0f2228420376f4db7e1274f2b41667c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8cpp_1ac0f2228420376f4db7e1274f2b41667c" kindref="member">main</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>argv[]<sp/>)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>argc<sp/>!=<sp/>4<sp/>)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Please<sp/>provide<sp/>3<sp/>arguments<sp/>of<sp/>a,<sp/>b<sp/>and<sp/>c<sp/>to<sp/>the<sp/>program!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;DEBUG<sp/>PRINTING:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Total<sp/>args:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>argc<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Got<sp/>args:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>argv[1]<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>argv[2]<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>argv[3]<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xdebug1<sp/>=<sp/>0,<sp/>xdebug2<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<sp/><ref refid="functions_8cpp_1ad6ffdcf73fce6b6db5aabb670473f189" kindref="member">find_roots</ref>(<sp/>1,<sp/>4,<sp/>-5,<sp/>&amp;xdebug1,<sp/>&amp;xdebug2<sp/>)<sp/>==<sp/>2<sp/>&amp;&amp;<sp/>xdebug1<sp/>==<sp/>-5<sp/>&amp;&amp;<sp/>xdebug2<sp/>==<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<sp/><ref refid="functions_8cpp_1ad6ffdcf73fce6b6db5aabb670473f189" kindref="member">find_roots</ref>(<sp/>1,<sp/>6,<sp/>9,<sp/>&amp;xdebug1,<sp/>&amp;xdebug2<sp/>)<sp/>==<sp/>1<sp/>&amp;&amp;<sp/>xdebug1<sp/>==<sp/>-3<sp/>&amp;&amp;<sp/>xdebug2<sp/>==<sp/>-3<sp/>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<sp/>isnan(<sp/><ref refid="functions_8cpp_1ad6ffdcf73fce6b6db5aabb670473f189" kindref="member">find_roots</ref>(<sp/>2,<sp/>4,<sp/>7,<sp/>&amp;xdebug1,<sp/>&amp;xdebug2<sp/>)<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<sp/>isinf(<sp/><ref refid="functions_8cpp_1ad6ffdcf73fce6b6db5aabb670473f189" kindref="member">find_roots</ref>(<sp/>0,<sp/>0,<sp/>0,<sp/>&amp;xdebug1,<sp/>&amp;xdebug2<sp/>)<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>arg_a<sp/>=<sp/>0,<sp/>arg_b<sp/>=<sp/>0,<sp/>arg_c<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="functions_8cpp_1aee8606e77eda0f5117dc70ade0ab61e2" kindref="member">parse_args</ref>(<sp/>&amp;arg_a,<sp/>&amp;arg_b,<sp/>&amp;arg_c,<sp/>argc,<sp/>argv<sp/>);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x1<sp/>=<sp/>0,<sp/>x2<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/>num_roots<sp/>=<sp/><ref refid="functions_8cpp_1ad6ffdcf73fce6b6db5aabb670473f189" kindref="member">find_roots</ref>(<sp/>arg_a,<sp/>arg_b,<sp/>arg_c,<sp/>&amp;x1,<sp/>&amp;x2<sp/>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="functions_8cpp_1a7e55b4a8317844845ae559cc9ca919a0" kindref="member">print_roots</ref>(<sp/>x1,<sp/>x2,<sp/>num_roots<sp/>);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="square-root/main.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.20" xml:lang="en-US">
+  <compound refid="functions_8cpp" kind="file"><name>functions.cpp</name>
+    <member refid="functions_8cpp_1ad6ffdcf73fce6b6db5aabb670473f189" kind="function"><name>find_roots</name></member>
+    <member refid="functions_8cpp_1a7e55b4a8317844845ae559cc9ca919a0" kind="function"><name>print_roots</name></member>
+    <member refid="functions_8cpp_1aee8606e77eda0f5117dc70ade0ab61e2" kind="function"><name>parse_args</name></member>
+    <member refid="functions_8cpp_1a4d01a36d1a70e0e67b9f99fe6cc99710" kind="function"><name>isZero</name></member>
+  </compound>
+  <compound refid="functions_8hpp" kind="file"><name>functions.hpp</name>
+    <member refid="functions_8hpp_1ad6ffdcf73fce6b6db5aabb670473f189" kind="function"><name>find_roots</name></member>
+    <member refid="functions_8hpp_1a7e55b4a8317844845ae559cc9ca919a0" kind="function"><name>print_roots</name></member>
+    <member refid="functions_8hpp_1aee8606e77eda0f5117dc70ade0ab61e2" kind="function"><name>parse_args</name></member>
+    <member refid="functions_8hpp_1a4d01a36d1a70e0e67b9f99fe6cc99710" kind="function"><name>isZero</name></member>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1ac0f2228420376f4db7e1274f2b41667c" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="dir_f9a606bf4577b6848a6b2157de857115" kind="dir"><name>square-root</name>
+  </compound>
+</doxygenindex>

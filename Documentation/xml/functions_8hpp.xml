@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="functions_8hpp" kind="file" language="C++">
+    <compoundname>functions.hpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">cmath</includes>
+    <includedby refid="functions_8cpp" local="yes">square-root/functions.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">square-root/main.cpp</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>cmath</label>
+      </node>
+      <node id="1">
+        <label>square-root/functions.hpp</label>
+        <link refid="functions_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>square-root/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="1">
+        <label>square-root/functions.hpp</label>
+        <link refid="functions_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>square-root/functions.cpp</label>
+        <link refid="functions_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="functions_8hpp_1ad6ffdcf73fce6b6db5aabb670473f189" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double find_roots</definition>
+        <argsstring>(double arg_a, double arg_b, double arg_c, double *root_1, double *root_2)</argsstring>
+        <name>find_roots</name>
+        <param>
+          <type>double</type>
+          <declname>arg_a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>arg_b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>arg_c</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>root_1</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>root_2</declname>
+        </param>
+        <briefdescription>
+<para>Function to find roots of quadratic equation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>Ubsefor </para>
+</simplesect>
+<simplesect kind="version"><para>1.1 </para>
+</simplesect>
+<simplesect kind="date"><para>09/06/2020 </para>
+</simplesect>
+<simplesect kind="warning"><para>This function was created for educational purposes </para>
+</simplesect>
+<simplesect kind="return"><para>Returns amount of roots of quadratic equation </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">arg_a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– first param of equation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">arg_b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– second param of equation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">arg_c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– third param of equation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">root_1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– first root of equation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">root_2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– second root of equation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>Function finds the roots of quadratic equation and returns number of roots </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="square-root/functions.hpp" line="33" column="8" bodyfile="square-root/functions.cpp" bodystart="11" bodyend="44" declfile="square-root/functions.hpp" declline="33" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="functions_8hpp_1a7e55b4a8317844845ae559cc9ca919a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print_roots</definition>
+        <argsstring>(double root_1, double root_2, float num)</argsstring>
+        <name>print_roots</name>
+        <param>
+          <type>double</type>
+          <declname>root_1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>root_2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+<para>Function to print roots of quadratic equation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>Ubsefor </para>
+</simplesect>
+<simplesect kind="version"><para>1.1 </para>
+</simplesect>
+<simplesect kind="date"><para>09/06/2020 </para>
+</simplesect>
+<simplesect kind="warning"><para>This function was created for educational purposes </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">root_1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– first root of equation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">root_2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– second root of equation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– amount of roots </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>Function prints the given roots of quadratic equation and their amount if there are any roots; Else prints that there is infinite amount of roots or no roots at all </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="square-root/functions.hpp" line="49" column="6" bodyfile="square-root/functions.cpp" bodystart="46" bodyend="67" declfile="square-root/functions.hpp" declline="49" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="functions_8hpp_1aee8606e77eda0f5117dc70ade0ab61e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parse_args</definition>
+        <argsstring>(double *a, double *b, double *c, int argc, const char *argv[])</argsstring>
+        <name>parse_args</name>
+        <param>
+          <type>double *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+<para>Function to parse command line arguments. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>Ubsefor </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+<simplesect kind="date"><para>09/06/2020 </para>
+</simplesect>
+<simplesect kind="warning"><para>This function was created for educational purposes </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– first param of equation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– second param of equation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– third param of equation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">argc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– amount of args </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">argv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– array of args</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Function to parse command line arguments given to program, if a letter encountered, uses 0 instead of it </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="square-root/functions.hpp" line="67" column="6" bodyfile="square-root/functions.cpp" bodystart="69" bodyend="77" declfile="square-root/functions.hpp" declline="67" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="functions_8hpp_1a4d01a36d1a70e0e67b9f99fe6cc99710" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool isZero</definition>
+        <argsstring>(double number)</argsstring>
+        <name>isZero</name>
+        <param>
+          <type>double</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+<para>Function that compares the inputted param with the zero. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>Ubsefor </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+<simplesect kind="date"><para>09/06/2020 </para>
+</simplesect>
+<simplesect kind="warning"><para>This function was created for educational purposes </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– comparable floating point number </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Function returns the result of comparison with zero</para>
+</simplesect>
+Function to parse command line arguments given to program, if a letter encountered, uses 0 instead of it </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="square-root/functions.hpp" line="81" column="6" bodyfile="square-root/functions.cpp" bodystart="79" bodyend="82" declfile="square-root/functions.hpp" declline="81" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>functions.hpp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>square-root</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Alex<sp/>Makhov<sp/>on<sp/>05.09.2020.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2020<sp/>ISPRAS.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>functions_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>functions_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>C++<sp/>program<sp/>to<sp/>find<sp/>roots<sp/>of<sp/>a<sp/>quadratic<sp/>equation<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="functions_8hpp_1ad6ffdcf73fce6b6db5aabb670473f189" kindref="member">find_roots</ref>(<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>arg_a,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>arg_b,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>arg_c,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>root_1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>root_2<sp/>);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="functions_8hpp_1a7e55b4a8317844845ae559cc9ca919a0" kindref="member">print_roots</ref>(<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>root_1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>root_2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>num<sp/>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="functions_8hpp_1aee8606e77eda0f5117dc70ade0ab61e2" kindref="member">parse_args</ref>(<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>a,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>b,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>argv[]<sp/>);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="functions_8hpp_1a4d01a36d1a70e0e67b9f99fe6cc99710" kindref="member">isZero</ref>(<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>number<sp/>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>functions_h<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="square-root/functions.hpp"/>
+  </compounddef>
+</doxygen>

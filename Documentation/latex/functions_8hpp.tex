@@ -1,0 +1,174 @@
+\doxysection{square-\/root/functions.hpp File Reference}
+\label{functions_8hpp}\index{square-\/root/functions.hpp@{square-\/root/functions.hpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \textbf{ find\+\_\+roots} (double arg\+\_\+a, double arg\+\_\+b, double arg\+\_\+c, double $\ast$root\+\_\+1, double $\ast$root\+\_\+2)
+\begin{DoxyCompactList}\small\item\em Function to find roots of quadratic equation. \end{DoxyCompactList}\item 
+void \textbf{ print\+\_\+roots} (double root\+\_\+1, double root\+\_\+2, float num)
+\begin{DoxyCompactList}\small\item\em Function to print roots of quadratic equation. \end{DoxyCompactList}\item 
+void \textbf{ parse\+\_\+args} (double $\ast$a, double $\ast$b, double $\ast$c, int argc, const char $\ast$argv[$\,$])
+\begin{DoxyCompactList}\small\item\em Function to parse command line arguments. \end{DoxyCompactList}\item 
+bool \textbf{ is\+Zero} (double number)
+\begin{DoxyCompactList}\small\item\em Function that compares the inputted param with the zero. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\label{functions_8hpp_ad6ffdcf73fce6b6db5aabb670473f189}} 
+\index{functions.hpp@{functions.hpp}!find\_roots@{find\_roots}}
+\index{find\_roots@{find\_roots}!functions.hpp@{functions.hpp}}
+\doxysubsubsection{find\_roots()}
+{\footnotesize\ttfamily double find\+\_\+roots (\begin{DoxyParamCaption}\item[{double}]{arg\+\_\+a,  }\item[{double}]{arg\+\_\+b,  }\item[{double}]{arg\+\_\+c,  }\item[{double $\ast$}]{root\+\_\+1,  }\item[{double $\ast$}]{root\+\_\+2 }\end{DoxyParamCaption})}
+
+
+
+Function to find roots of quadratic equation. 
+
+\begin{DoxyAuthor}{Author}
+Ubsefor 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+09/06/2020 
+\end{DoxyDate}
+\begin{DoxyWarning}{Warning}
+This function was created for educational purposes 
+\end{DoxyWarning}
+\begin{DoxyReturn}{Returns}
+Returns amount of roots of quadratic equation 
+\end{DoxyReturn}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em arg\+\_\+a} & – first param of equation \\
+\hline
+\mbox{\texttt{ in}}  & {\em arg\+\_\+b} & – second param of equation \\
+\hline
+\mbox{\texttt{ in}}  & {\em arg\+\_\+c} & – third param of equation \\
+\hline
+\mbox{\texttt{ in}}  & {\em root\+\_\+1} & – first root of equation \\
+\hline
+\mbox{\texttt{ in}}  & {\em root\+\_\+2} & – second root of equation \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+Function finds the roots of quadratic equation and returns number of roots 
+\end{DoxyNote}
+
+
+Definition at line 11 of file functions.\+cpp.
+
+\mbox{\label{functions_8hpp_a4d01a36d1a70e0e67b9f99fe6cc99710}} 
+\index{functions.hpp@{functions.hpp}!isZero@{isZero}}
+\index{isZero@{isZero}!functions.hpp@{functions.hpp}}
+\doxysubsubsection{isZero()}
+{\footnotesize\ttfamily bool is\+Zero (\begin{DoxyParamCaption}\item[{double}]{number }\end{DoxyParamCaption})}
+
+
+
+Function that compares the inputted param with the zero. 
+
+\begin{DoxyAuthor}{Author}
+Ubsefor 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+09/06/2020 
+\end{DoxyDate}
+\begin{DoxyWarning}{Warning}
+This function was created for educational purposes 
+\end{DoxyWarning}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em number} & – comparable floating point number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Function returns the result of comparison with zero
+\end{DoxyReturn}
+Function to parse command line arguments given to program, if a letter encountered, uses 0 instead of it 
+
+Definition at line 79 of file functions.\+cpp.
+
+\mbox{\label{functions_8hpp_aee8606e77eda0f5117dc70ade0ab61e2}} 
+\index{functions.hpp@{functions.hpp}!parse\_args@{parse\_args}}
+\index{parse\_args@{parse\_args}!functions.hpp@{functions.hpp}}
+\doxysubsubsection{parse\_args()}
+{\footnotesize\ttfamily void parse\+\_\+args (\begin{DoxyParamCaption}\item[{double $\ast$}]{a,  }\item[{double $\ast$}]{b,  }\item[{double $\ast$}]{c,  }\item[{int}]{argc,  }\item[{const char $\ast$}]{argv[$\,$] }\end{DoxyParamCaption})}
+
+
+
+Function to parse command line arguments. 
+
+\begin{DoxyAuthor}{Author}
+Ubsefor 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+09/06/2020 
+\end{DoxyDate}
+\begin{DoxyWarning}{Warning}
+This function was created for educational purposes 
+\end{DoxyWarning}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a} & – first param of equation \\
+\hline
+\mbox{\texttt{ in}}  & {\em b} & – second param of equation \\
+\hline
+\mbox{\texttt{ in}}  & {\em c} & – third param of equation \\
+\hline
+\mbox{\texttt{ in}}  & {\em argc} & – amount of args \\
+\hline
+\mbox{\texttt{ in}}  & {\em argv} & – array of args\\
+\hline
+\end{DoxyParams}
+Function to parse command line arguments given to program, if a letter encountered, uses 0 instead of it 
+
+Definition at line 69 of file functions.\+cpp.
+
+\mbox{\label{functions_8hpp_a7e55b4a8317844845ae559cc9ca919a0}} 
+\index{functions.hpp@{functions.hpp}!print\_roots@{print\_roots}}
+\index{print\_roots@{print\_roots}!functions.hpp@{functions.hpp}}
+\doxysubsubsection{print\_roots()}
+{\footnotesize\ttfamily void print\+\_\+roots (\begin{DoxyParamCaption}\item[{double}]{root\+\_\+1,  }\item[{double}]{root\+\_\+2,  }\item[{float}]{num }\end{DoxyParamCaption})}
+
+
+
+Function to print roots of quadratic equation. 
+
+\begin{DoxyAuthor}{Author}
+Ubsefor 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+09/06/2020 
+\end{DoxyDate}
+\begin{DoxyWarning}{Warning}
+This function was created for educational purposes 
+\end{DoxyWarning}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em root\+\_\+1} & – first root of equation \\
+\hline
+\mbox{\texttt{ in}}  & {\em root\+\_\+2} & – second root of equation \\
+\hline
+\mbox{\texttt{ in}}  & {\em num} & – amount of roots \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+Function prints the given roots of quadratic equation and their amount if there are any roots; Else prints that there is infinite amount of roots or no roots at all 
+\end{DoxyNote}
+
+
+Definition at line 46 of file functions.\+cpp.
+

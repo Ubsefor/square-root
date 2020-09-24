@@ -1,0 +1,208 @@
+.TH "square-root/functions.cpp" 3 "Thu Sep 24 2020" "square-root" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+square-root/functions.cpp
+.SH SYNOPSIS
+.br
+.PP
+\fC#include 'functions\&.hpp'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "double \fBfind_roots\fP (double arg_a, double arg_b, double arg_c, double *root_1, double *root_2)"
+.br
+.RI "Function to find roots of quadratic equation\&. "
+.ti -1c
+.RI "void \fBprint_roots\fP (double root_1, double root_2, float num)"
+.br
+.RI "Function to print roots of quadratic equation\&. "
+.ti -1c
+.RI "void \fBparse_args\fP (double *a, double *b, double *c, int argc, const char *argv[])"
+.br
+.RI "Function to parse command line arguments\&. "
+.ti -1c
+.RI "bool \fBisZero\fP (double number)"
+.br
+.RI "Function that compares the inputted param with the zero\&. "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "double find_roots (double arg_a, double arg_b, double arg_c, double * root_1, double * root_2)"
+
+.PP
+Function to find roots of quadratic equation\&. 
+.PP
+\fBAuthor\fP
+.RS 4
+Ubsefor 
+.RE
+.PP
+\fBVersion\fP
+.RS 4
+1\&.1 
+.RE
+.PP
+\fBDate\fP
+.RS 4
+09/06/2020 
+.RE
+.PP
+\fBWarning\fP
+.RS 4
+This function was created for educational purposes 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Returns amount of roots of quadratic equation 
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fIarg_a\fP – first param of equation 
+.br
+\fIarg_b\fP – second param of equation 
+.br
+\fIarg_c\fP – third param of equation 
+.br
+\fIroot_1\fP – first root of equation 
+.br
+\fIroot_2\fP – second root of equation 
+.RE
+.PP
+\fBNote\fP
+.RS 4
+Function finds the roots of quadratic equation and returns number of roots 
+.RE
+.PP
+
+.PP
+Definition at line 11 of file functions\&.cpp\&.
+.SS "bool isZero (double number)"
+
+.PP
+Function that compares the inputted param with the zero\&. 
+.PP
+\fBAuthor\fP
+.RS 4
+Ubsefor 
+.RE
+.PP
+\fBVersion\fP
+.RS 4
+1\&.0 
+.RE
+.PP
+\fBDate\fP
+.RS 4
+09/06/2020 
+.RE
+.PP
+\fBWarning\fP
+.RS 4
+This function was created for educational purposes 
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fInumber\fP – comparable floating point number 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Function returns the result of comparison with zero
+.RE
+.PP
+Function to parse command line arguments given to program, if a letter encountered, uses 0 instead of it 
+.PP
+Definition at line 79 of file functions\&.cpp\&.
+.SS "void parse_args (double * a, double * b, double * c, int argc, const char * argv[])"
+
+.PP
+Function to parse command line arguments\&. 
+.PP
+\fBAuthor\fP
+.RS 4
+Ubsefor 
+.RE
+.PP
+\fBVersion\fP
+.RS 4
+1\&.0 
+.RE
+.PP
+\fBDate\fP
+.RS 4
+09/06/2020 
+.RE
+.PP
+\fBWarning\fP
+.RS 4
+This function was created for educational purposes 
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP – first param of equation 
+.br
+\fIb\fP – second param of equation 
+.br
+\fIc\fP – third param of equation 
+.br
+\fIargc\fP – amount of args 
+.br
+\fIargv\fP – array of args
+.RE
+.PP
+Function to parse command line arguments given to program, if a letter encountered, uses 0 instead of it 
+.PP
+Definition at line 69 of file functions\&.cpp\&.
+.SS "void print_roots (double root_1, double root_2, float num)"
+
+.PP
+Function to print roots of quadratic equation\&. 
+.PP
+\fBAuthor\fP
+.RS 4
+Ubsefor 
+.RE
+.PP
+\fBVersion\fP
+.RS 4
+1\&.1 
+.RE
+.PP
+\fBDate\fP
+.RS 4
+09/06/2020 
+.RE
+.PP
+\fBWarning\fP
+.RS 4
+This function was created for educational purposes 
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fIroot_1\fP – first root of equation 
+.br
+\fIroot_2\fP – second root of equation 
+.br
+\fInum\fP – amount of roots 
+.RE
+.PP
+\fBNote\fP
+.RS 4
+Function prints the given roots of quadratic equation and their amount if there are any roots; Else prints that there is infinite amount of roots or no roots at all 
+.RE
+.PP
+
+.PP
+Definition at line 46 of file functions\&.cpp\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for square-root from the source code\&.

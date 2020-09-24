@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="functions_8cpp" kind="file" language="C++">
+    <compoundname>functions.cpp</compoundname>
+    <includes refid="functions_8hpp" local="yes">functions.hpp</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>cmath</label>
+      </node>
+      <node id="2">
+        <label>functions.hpp</label>
+        <link refid="functions_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>square-root/functions.cpp</label>
+        <link refid="functions_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="functions_8cpp_1ad6ffdcf73fce6b6db5aabb670473f189" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double find_roots</definition>
+        <argsstring>(double arg_a, double arg_b, double arg_c, double *root_1, double *root_2)</argsstring>
+        <name>find_roots</name>
+        <param>
+          <type>double</type>
+          <declname>arg_a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>arg_b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>arg_c</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>root_1</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>root_2</declname>
+        </param>
+        <briefdescription>
+<para>Function to find roots of quadratic equation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>Ubsefor </para>
+</simplesect>
+<simplesect kind="version"><para>1.1 </para>
+</simplesect>
+<simplesect kind="date"><para>09/06/2020 </para>
+</simplesect>
+<simplesect kind="warning"><para>This function was created for educational purposes </para>
+</simplesect>
+<simplesect kind="return"><para>Returns amount of roots of quadratic equation </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">arg_a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– first param of equation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">arg_b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– second param of equation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">arg_c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– third param of equation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">root_1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– first root of equation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">root_2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– second root of equation </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>Function finds the roots of quadratic equation and returns number of roots </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="square-root/functions.cpp" line="11" column="8" bodyfile="square-root/functions.cpp" bodystart="11" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="functions_8cpp_1a7e55b4a8317844845ae559cc9ca919a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print_roots</definition>
+        <argsstring>(double root_1, double root_2, float num)</argsstring>
+        <name>print_roots</name>
+        <param>
+          <type>double</type>
+          <declname>root_1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>root_2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+<para>Function to print roots of quadratic equation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>Ubsefor </para>
+</simplesect>
+<simplesect kind="version"><para>1.1 </para>
+</simplesect>
+<simplesect kind="date"><para>09/06/2020 </para>
+</simplesect>
+<simplesect kind="warning"><para>This function was created for educational purposes </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">root_1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– first root of equation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">root_2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– second root of equation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– amount of roots </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>Function prints the given roots of quadratic equation and their amount if there are any roots; Else prints that there is infinite amount of roots or no roots at all </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="square-root/functions.cpp" line="46" column="6" bodyfile="square-root/functions.cpp" bodystart="46" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="functions_8cpp_1aee8606e77eda0f5117dc70ade0ab61e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void parse_args</definition>
+        <argsstring>(double *a, double *b, double *c, int argc, const char *argv[])</argsstring>
+        <name>parse_args</name>
+        <param>
+          <type>double *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+<para>Function to parse command line arguments. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>Ubsefor </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+<simplesect kind="date"><para>09/06/2020 </para>
+</simplesect>
+<simplesect kind="warning"><para>This function was created for educational purposes </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– first param of equation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– second param of equation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– third param of equation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">argc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– amount of args </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">argv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– array of args</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Function to parse command line arguments given to program, if a letter encountered, uses 0 instead of it </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="square-root/functions.cpp" line="69" column="6" bodyfile="square-root/functions.cpp" bodystart="69" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="functions_8cpp_1a4d01a36d1a70e0e67b9f99fe6cc99710" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool isZero</definition>
+        <argsstring>(double number)</argsstring>
+        <name>isZero</name>
+        <param>
+          <type>double</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+<para>Function that compares the inputted param with the zero. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="author"><para>Ubsefor </para>
+</simplesect>
+<simplesect kind="version"><para>1.0 </para>
+</simplesect>
+<simplesect kind="date"><para>09/06/2020 </para>
+</simplesect>
+<simplesect kind="warning"><para>This function was created for educational purposes </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>– comparable floating point number </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Function returns the result of comparison with zero</para>
+</simplesect>
+Function to parse command line arguments given to program, if a letter encountered, uses 0 instead of it </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="square-root/functions.cpp" line="79" column="6" bodyfile="square-root/functions.cpp" bodystart="79" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>functions.cpp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>square-root</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>Created<sp/>by<sp/>Alex<sp/>Makhov<sp/>on<sp/>05.09.2020.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>Copyright<sp/>©<sp/>2020<sp/>ISPRAS.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="functions_8hpp" kindref="compound">functions.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="functions_8hpp_1ad6ffdcf73fce6b6db5aabb670473f189" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="functions_8cpp_1ad6ffdcf73fce6b6db5aabb670473f189" kindref="member">find_roots</ref>(<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>arg_a,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>arg_b,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>arg_c,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>root_1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>root_2<sp/>)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="functions_8cpp_1a4d01a36d1a70e0e67b9f99fe6cc99710" kindref="member">isZero</ref>(<sp/>arg_a<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="functions_8cpp_1a4d01a36d1a70e0e67b9f99fe6cc99710" kindref="member">isZero</ref>(<sp/>arg_b<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/><ref refid="functions_8cpp_1a4d01a36d1a70e0e67b9f99fe6cc99710" kindref="member">isZero</ref>(<sp/>arg_c<sp/>)<sp/>)?<sp/>INFINITY<sp/>:<sp/>0;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>*root_1<sp/>=<sp/>-arg_c<sp/>/<sp/>arg_b;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>discriminant<sp/>=<sp/>pow(<sp/>arg_b,<sp/>2<sp/>)<sp/>-<sp/>4<sp/>*<sp/>arg_a<sp/>*<sp/>arg_c;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>discriminant<sp/>&lt;<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NAN;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="functions_8cpp_1a4d01a36d1a70e0e67b9f99fe6cc99710" kindref="member">isZero</ref>(<sp/>discriminant<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>*root_1<sp/>=<sp/>*root_2<sp/>=<sp/>-arg_b<sp/>/<sp/>(<sp/>2<sp/>*<sp/>arg_a<sp/>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sqrt_dis<sp/>=<sp/>sqrt(<sp/>discriminant<sp/>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>*root_1<sp/>=<sp/>(<sp/>-arg_b<sp/>-<sp/>sqrt_dis<sp/>)<sp/>/<sp/>(<sp/>2<sp/>*<sp/>arg_a<sp/>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>*root_2<sp/>=<sp/>(<sp/>-arg_b<sp/>+<sp/>sqrt_dis<sp/>)<sp/>/<sp/>(<sp/>2<sp/>*<sp/>arg_a<sp/>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>2;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="functions_8hpp_1a7e55b4a8317844845ae559cc9ca919a0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="functions_8cpp_1a7e55b4a8317844845ae559cc9ca919a0" kindref="member">print_roots</ref>(<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>root_1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>root_2,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>num<sp/>)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>std::isnan(<sp/>num<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;NO<sp/>ROOTS&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>exit(<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>std::isinf(<sp/>num<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;INF<sp/>ROOTS&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="functions_8cpp_1a4d01a36d1a70e0e67b9f99fe6cc99710" kindref="member">isZero</ref>(<sp/>num<sp/>-<sp/>2<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;2<sp/>ROOTS:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>root_1<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>and<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>root_2<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>exit(<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;1<sp/>ROOT:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>root_1<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>exit(<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="functions_8hpp_1aee8606e77eda0f5117dc70ade0ab61e2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="functions_8cpp_1aee8606e77eda0f5117dc70ade0ab61e2" kindref="member">parse_args</ref>(<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>a,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>b,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<sp/>c,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>argv[]<sp/>)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>*a<sp/>=<sp/>strtod(<sp/>argv[1],<sp/>NULL<sp/>);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/>*b<sp/>=<sp/>strtod(<sp/>argv[2],<sp/>NULL<sp/>);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/>*c<sp/>=<sp/>strtod(<sp/>argv[3],<sp/>NULL<sp/>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Understood<sp/>as<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>*a<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>*b<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>*c<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="functions_8hpp_1a4d01a36d1a70e0e67b9f99fe6cc99710" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="functions_8cpp_1a4d01a36d1a70e0e67b9f99fe6cc99710" kindref="member">isZero</ref>(<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>number<sp/>)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>fabs(<sp/>number<sp/>)<sp/>&lt;<sp/>1E-6<sp/>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="square-root/functions.cpp"/>
+  </compounddef>
+</doxygen>
